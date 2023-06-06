@@ -1,0 +1,24 @@
+.produits-container{
+    background-color:#EFEFEFEF;
+    padding-top:20vh;
+}
+.produits{
+    padding:20px 0;
+    min-height:80vh;
+    width:1320px;
+    margin:0 auto;
+    font-family:'Signika', sans-serif;
+}
+.produits .card{
+    background-color:white;
+    border-bottom:1px solid #EFEFEF;
+    margin-bottom:10px;
+    padding:10px 20px;
+    border-radius:8px;
+    transition:all .3s .1s ease;
+}
+.produits .card:hover{
+    background-color: #EFEFEF;
+    cursor:pointer;
+    border-radius: 7px;
+}

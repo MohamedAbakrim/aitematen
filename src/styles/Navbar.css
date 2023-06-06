@@ -1,0 +1,59 @@
+.header-container{
+    position:fixed;
+    background-color:white;
+    width:100%;
+    z-index:1;
+}
+.header{
+    height:20vh;
+    /* background-color:red; */
+    width:1320px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family:'Signika', sans-serif;
+}
+.header .logo{
+    text-decoration:none;
+    color:black;
+    display:flex;
+    align-items:center;
+}
+.header .logo .logo-img{
+    margin-right:10px;
+    width:70px;
+}
+.header .logo span{
+    font-size:40px;
+    font-weight:700;
+}
+.header .nav-links{
+    list-style-type:none;
+}
+.header .nav-links li{
+    display:inline-block;
+    margin-right:20px;
+}
+.header .nav-links li .nav-link{
+    text-decoration:none;
+    color:black;
+    font-size:1.2em;
+    transition:border-bottom .1s .1s ease;
+}
+.header .nav-links li .nav-link:hover{
+    border-bottom:2px solid black;
+}
+.header .contact-button{
+    font-size:1.3em;
+    text-decoration:none;
+    color:white;
+    background-color:#D2122E;
+    padding:10px 20px;
+    opacity:.9;
+    transition:all .3s .1s ease-in;
+}
+.header .contact-button:hover{
+    transform: scale(1.1);
+    opacity:1;
+}

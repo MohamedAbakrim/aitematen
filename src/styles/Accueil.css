@@ -1,0 +1,43 @@
+.container{
+    background-color:#EFEFEFEF;
+    padding-top:20vh;
+}
+.container .accueil{
+    height:80vh;
+    width:1320px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family:'Signika', sans-serif;
+}
+.container .accueil .accueil-description{
+    height:30vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.container .accueil .accueil-description h1{
+    font-weight:700;
+    font-size:2.5em;
+}
+.container .accueil .accueil-description p{
+    font-size:1.3em;
+}
+.container .accueil .accueil-description .contact-button{
+    font-size:1.3em;
+    width:fit-content;
+    text-decoration:none;
+    color:white;
+    background-color:#D2122E;
+    padding:10px 20px;
+    opacity:.9;
+    transition:all .3s .1s ease-in;
+}
+.container .accueil .accueil-description .contact-button:hover{
+    transform: scale(1.1);
+    opacity:1;
+}
+.container .accueil .accueil-img{
+    border-radius:8px;
+}

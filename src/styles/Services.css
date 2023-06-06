@@ -1,0 +1,13 @@
+.service-container{
+    background-color:white;
+    padding-top:20vh;
+}
+.service-parent{
+    height:80vh;
+    width:1320px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family:'Signika', sans-serif;
+}
